@@ -23,10 +23,8 @@ const AboutPage = (props) => {
 
   return (
     <div>
-      <h1>About Page</h1>
-      {users.map((user) => (
-        <li key={user._id}>{user.name}</li>
-      ))}
+      <h1>About</h1>
+        <p>lorem ipsum</p>
     </div>
   );
 };

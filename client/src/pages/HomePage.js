@@ -2,7 +2,10 @@
 const HomePage = (props) => {
 
   return (
-    <h1>Home Page</h1>
+    <>
+    <h1>Charon Death Doula</h1>
+    <h2>Conscious Creative Companionship</h2>
+    </>
   )
 }
 
