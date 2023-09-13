@@ -3,15 +3,13 @@ const Footer = () => {
 
   return (
     <div className="footer">
-    
+      <div className="footerContainer">
       
-        <li>
-          <a className="footer-link" href= "www.facebook.com">Facebook </a>
-        </li>
-        <li>
-          <a className="footer-link" href="www.linkedin.com">LinkedIn</a>
-        </li>
-      
+          <a className="footerLink" href= "www.facebook.com">Facebook </a>
+
+          <a className="footerLink" href="www.linkedin.com">LinkedIn</a>
+
+        </div>
  
     </div>
   );

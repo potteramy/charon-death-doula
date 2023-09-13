@@ -1,4 +1,5 @@
 
+
 /* === typography ====== */ 
 
 h1, h2, h3, h4, h5, h6, p, li, td, th, blockquote, label, input, textarea, select {
@@ -19,10 +20,28 @@ p {
 }
 .App {
   height: 100%;
+  background-color: #1A1423;
 }
 .AppPages {
   min-height: 70%;
 }
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.charonDdImg {
+  height: 20%;
+  width: 20%;
+}
+.cccImg {
+  height: 100%;
+  width: 100%;
+}
+.boatImg {
+  height: 30%;
+  width: 30%;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
