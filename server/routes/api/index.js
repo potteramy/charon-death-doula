@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const sampleRoutes = require('./sample-routes');
+const blogRoutes = require('./blog-routes');
 
-router.use('/sample', sampleRoutes);
+router.use('/blog', blogRoutes);
 
 module.exports = router;

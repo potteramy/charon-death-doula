@@ -17,3 +17,19 @@ p, li, td, th, blockquote, label, input, textarea, select {
 p {
   margin-bottom: 1rem;
 }
+.App {
+  height: 100%;
+}
+.AppPages {
+  min-height: 70%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  
+}
+/* .footerContainer {
+  position: bottom;
+} */

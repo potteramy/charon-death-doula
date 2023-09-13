@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import { AboutPage, ContactPage, EducationPage, HomePage, ServicesPage} from "./pages";
 import CatchAllPage from "./pages/404"
-import { Header, Wrapper } from "./components"
+import { Header, Footer,Wrapper } from "./components"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./styles/global.css"
@@ -13,10 +13,11 @@ function App() {
 
   
   return (
+    <div className="App">
     <BrowserRouter>
       <Wrapper>
         <Header />
-        <div className="pt-3 px-4">
+        <div className= "AppPages">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -27,8 +28,10 @@ function App() {
             <Route path="*" element={<CatchAllPage />} />
           </Routes>
         </div>
+        <Footer/>
       </Wrapper>
     </BrowserRouter>
+    </div>
   );
 }
 
