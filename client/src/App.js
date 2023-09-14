@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutPage, ContactPage, EducationPage, HomePage, ServicesPage} from "./pages";
 import CatchAllPage from "./pages/404"
 import { Header, Footer,Wrapper } from "./components"

@@ -1,5 +1,6 @@
 
 import {Ccc, CharonDd, Boat} from "../img/images"
+import { motion } from "framer-motion";
 const HomePage = (props) => {
 
   return (
@@ -7,13 +8,18 @@ const HomePage = (props) => {
       <img src={CharonDd} alt= "illustration reading: Charon death doula" className="charonDdImg"></img>
 
       <img src={Ccc} alt= "Illustration reading: Conscious compassionate care" className="cccImg"></img>
-    {/* <motion.div animate={{x:[0, 100], opacity: 1, scale: 1}}
+      <div className="motion">
+    <motion.div animate={{x:[0, 900]}}
     transition={{
-      duration:5,
+      ease: "linear",
+      duration: 20,
       delay: .5,
-    }} > */}
+    }} 
+    >
       <img src={Boat} alt= "illustration of boat with guiding light" className="boatImg" ></img>
-      {/* </motion.div> */}
+      </motion.div>
+     
+      </div>
     </div>
 
   )
